@@ -30,4 +30,4 @@
 
 #注意点
 浮动的按钮 需要设置  android:tag="sticky"
-浮动按钮需要被 <com.xjp.library.FloatButton/>布局包裹。
+浮动按钮需要被<com.xjp.library.FloatButton/>布局包裹。
