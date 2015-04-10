@@ -52,6 +52,7 @@ public class FloatButton extends RelativeLayout {
         WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
         wm.getDefaultDisplay().getMetrics(dm);
         screenH = dm.heightPixels;
+        setClickable(true);
     }
 
     @Override
@@ -137,9 +138,11 @@ public class FloatButton extends RelativeLayout {
             case MotionEvent.ACTION_DOWN:
                 moveY = ev.getRawY();
                 break;
+            default:
+                break;
         }
 
-        return true;
+        return super.dispatchTouchEvent(ev);
     }
 
     /**
