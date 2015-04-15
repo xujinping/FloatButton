@@ -15,3 +15,5 @@
     </com.xjp.library.FloatButton>
     
     需要浮动出现和隐藏的按钮必须设置tag 属性 android:tag="sticky" 和被FloatButton 父布局包裹
+    
+    ![](https://github.com/xujinping/FloatButton/blob/master/app/src/main/raw/jietu.gif)
